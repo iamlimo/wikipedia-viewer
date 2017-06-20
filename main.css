@@ -1,0 +1,88 @@
+body{
+    color: #a0a2ae;
+	background: #22295F;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.container{
+  
+    margin-top: 130px;
+}
+
+#wiki-search{
+    text-align: center;
+}
+
+#inputText{
+    border: none;
+    border-bottom: 2px solid #000;
+     outline: none;
+    background: #22295F;
+    color: #fff;
+    font-family: monospace;
+    width: 300px;
+}
+
+#inputText:focus{
+    border: none;
+    border-bottom: 2px solid #000;
+     outline: none;
+    background: #22295F;
+    color: #fff;
+    font-family: monospace;
+    font-size: 30px;
+    width: 400px;
+}
+
+#inputText:visited{
+    border: none;
+    border-bottom: 2px solid #000;
+     outline: none;
+    background: #22295F;
+    color: #fff;
+    font-family: monospace;
+    font-size: 30px;
+    width: 400px;
+}
+
+#result{
+    
+    height: 1200px;
+    background: #000;
+    margin-top: 10px
+    
+}
+
+#close{
+   position: relative;
+   left: -20px;
+   
+}
+
+#button{
+    padding: 5px 10px;
+    background: #696969;
+    border-radius: 5px;
+    font-family: monospace;
+    border: thin;
+    outline: none;
+}
+
+#button > a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.box-content{
+   margin-top: 10px;
+    text-align: center;
+}
+
+a{
+    color: #fff;
+}
+
+a:hover{
+     color: #fff;
+    text-decoration: none;
+}
